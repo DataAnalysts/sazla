@@ -1,0 +1,47 @@
+<html >
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="FlexiQuiz test maker login screen. Login to start building quizzes, edit or share existing tests, quizzes, or exams.">
+
+    <title>Login - Sazla</title>
+
+
+    <link rel="shortcut icon" href="/design/sazla.png">
+    <link rel="icon" href="/design/sazla.png" sizes="16x16" type="image/png">
+    <link href="/templates/accounts/register.html" rel="canonical">
+    <link href="/Content/flat-public.css" rel="stylesheet" type="text/css">
+
+
+</head>
+    <body class="basicMain">
+
+        
+
+
+<div id="loginNewAccountSignup">Hesabın yoxdur?<a id="YeniHesabAç" href="register.html">Hesab yarat</a></div>
+<div id="loginControls">
+    <a href="/"><img id="loginLogo" src="/design/sazla.png" alt="logo"></a>
+    <h2>Daxil ol Sazlaya</h2>
+
+<form action="/templates/accounts/register.html" method="post">
+        <div id="warningContent"></div>
+        <input id="İstifadəçi adı" name="İstifadəçi adı" type="text" placeholder="Email / İstifadəçi adı" aria-label="İstifadəçi adı">
+        <div id="İstifadəçiAdıValidationMessage"></div>
+        <input id="Password" name="Password" type="password" placeholder="Password" aria-label="Password">
+        <div id="passwordValidationMessage"></div>
+        <div id="DaxilOlSeçimləri">
+            <input type="checkbox" name="Yadda saxla" id="Yadda saxla" value="true" aria-labelledby="DaxilOlYaddaSaxla">
+            <span id="DaxilOlYaddaSaxla">Xatırlayırsan məni?</span>
+
+            <a href="/templates/accounts/register.html">Unutmusan passwordunu?</a>
+        </div>
+        <input id="İndiDaxilOl" type="submit" value="Daxil ol">
+</form></div>
+
+
+
+    
+</body></html>
